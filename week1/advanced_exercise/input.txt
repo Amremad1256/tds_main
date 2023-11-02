@@ -1,0 +1,5 @@
+program
+file
+text
+word
+the

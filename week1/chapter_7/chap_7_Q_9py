@@ -1,0 +1,8 @@
+def is_palindrome(lst):
+    reversed_list = lst[::-1]
+    return lst == reversed_list
+
+list1 = [1, 2, 3, 2, 1]
+list2 = [1, 2, 3, 4, 5]
+print("List 1 is a palindrome:", is_palindrome(list1))
+print("List 2 is a palindrome:", is_palindrome(list2))
